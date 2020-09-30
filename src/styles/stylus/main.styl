@@ -1,0 +1,54 @@
+@import "lib/_global.styl"
+@import "lib/_var.styl"
+.header_logo
+	padding 1.5rem
+	h1
+		font-family font_one
+		font-weight 700
+		color color_two
+	a
+		display block
+		height 11rem
+	img
+		width 100%
+		position relative
+		top -4rem
+.header_nav
+	flex_between()
+	padding 2rem
+	a
+		font-family font_one
+		font-size font_size_two
+		color color_two
+
+.Alive
+	color color_alive
+.Dead
+	color color_dead
+.unknown
+	color color_unkown
+.Character_item, .character_card
+	position relative
+	margin-bottom 2rem
+	a
+		position relative
+	img
+		width 100%
+	div
+		position absolute
+		right 0
+		bottom 0
+		left 0
+		padding 2rem
+		font-family font_one
+		font-size font_size_one
+		color color_two
+		background alpha(color_one, .5)
+.character_card
+	h3
+		margin 0 2rem 1rem 2rem
+		font-family font_one
+		font-size font_size_two
+		color color_two
+	span
+		font-weight 300
