@@ -34,6 +34,14 @@ module.exports = {
                 {
                     from: './src/styles/main.css',
                     to: ''
+                },
+                {
+                    from: './src/styles/tablet.css',
+                    to: ''
+                },
+                {
+                    from: './src/styles/desktop.css',
+                    to: ''
                 }
             ]
         })

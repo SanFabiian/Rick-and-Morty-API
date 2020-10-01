@@ -1,0 +1,47 @@
+.characters
+	display grid
+	grid-template-columns 1fr
+	gap 3rem
+.character_inner
+	width 90%
+	margin 0 auto
+	margin-bottom 2rem
+	padding-bottom .5rem
+	border-radius 1.5rem
+	overflow hidden
+	background lightness(color_one, 10%)
+	box-shadow 0 0 1rem 0 #313131
+.character_item, .character_card
+	position relative
+	a
+		position relative
+	img
+		width 100%
+.character_name
+	position absolute
+	right 0
+	bottom 0
+	left 0
+	background alpha(color_one, .5)
+	padding 2rem
+	font-family font_one
+	color color_two
+	h2
+		font-size font_size_one
+	p
+		font-size font_size_two
+.character_card
+	margin 0
+	h2
+		font-family font_one
+		font-size font_size_big
+		color color_two
+	h3
+		font-family font_one
+		font-size font_size_two
+		color color_two
+		line-height 2.5rem
+	span
+		font-weight 300
+	&-status
+		padding 2rem
