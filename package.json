@@ -2,7 +2,7 @@
   "name": "app_rick_morty",
   "version": "1.0.0",
   "description": "Single page application",
-  "main": "index.js",
+  "main": "./src/index.js",
   "scripts": {
     "build": "webpack --mode production",
     "start": "webpack-dev-server --open --mode development"
